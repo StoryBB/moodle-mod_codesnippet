@@ -1,0 +1,110 @@
+/*
+
+Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-license.org/
+
+Classes modified slightly to make work cleanly inside modtype_codesnippet without collisions.
+Styles also added for https://github.com/wcoder/highlightjs-line-numbers.js
+*/
+
+.modtype_codesnippet .hljs {
+    display: block;
+    overflow-x: auto;
+    padding: 0.5em;
+    background: #23241f;
+}
+
+.modtype_codesnippet .hljs,
+.modtype_codesnippet .hljs-tag,
+.modtype_codesnippet .hljs-subst {
+    color: #f8f8f2;
+}
+
+.modtype_codesnippet .hljs-strong,
+.modtype_codesnippet .hljs-emphasis {
+    color: #a8a8a2;
+}
+
+.modtype_codesnippet .hljs-bullet,
+.modtype_codesnippet .hljs-quote,
+.modtype_codesnippet .hljs-number,
+.modtype_codesnippet .hljs-regexp,
+.modtype_codesnippet .hljs-literal,
+.modtype_codesnippet .hljs-link {
+    color: #ae81ff;
+}
+
+.modtype_codesnippet .hljs-code,
+.modtype_codesnippet .hljs-title,
+.modtype_codesnippet .hljs-section,
+.modtype_codesnippet .hljs-selector-class {
+    color: #a6e22e;
+}
+
+.modtype_codesnippet .hljs-strong {
+    font-weight: bold;
+}
+
+.modtype_codesnippet .hljs-emphasis {
+    font-style: italic;
+}
+
+.modtype_codesnippet .hljs-keyword,
+.modtype_codesnippet .hljs-selector-tag,
+.modtype_codesnippet .hljs-name,
+.modtype_codesnippet .hljs-attr {
+    color: #f92672;
+}
+
+.modtype_codesnippet .hljs-symbol,
+.modtype_codesnippet .hljs-attribute {
+    color: #66d9ef;
+}
+
+.modtype_codesnippet .hljs-params,
+.modtype_codesnippet .hljs-class .hljs-title {
+    color: #f8f8f2;
+}
+
+.modtype_codesnippet .hljs-string,
+.modtype_codesnippet .hljs-type,
+.modtype_codesnippet .hljs-built_in,
+.modtype_codesnippet .hljs-builtin-name,
+.modtype_codesnippet .hljs-selector-id,
+.modtype_codesnippet .hljs-selector-attr,
+.modtype_codesnippet .hljs-selector-pseudo,
+.modtype_codesnippet .hljs-addition,
+.modtype_codesnippet .hljs-variable,
+.modtype_codesnippet .hljs-template-variable {
+    color: #e6db74;
+}
+
+.modtype_codesnippet .hljs-comment,
+.modtype_codesnippet .hljs-deletion,
+.modtype_codesnippet .hljs-meta {
+    color: #75715e;
+}
+
+/* for block of numbers */
+.modtype_codesnippet .hljs-ln-numbers {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    text-align: right;
+    color: #ccc;
+    border-right: 1px solid #CCC;
+    vertical-align: top;
+    padding-right: 5px;
+}
+
+/* for block of code */
+.modtype_codesnippet .hljs-ln-code {
+    padding-left: 10px;
+}
+
+.modtype_codesnippet .hljs-ln-n {
+    padding: 0 5px;
+}

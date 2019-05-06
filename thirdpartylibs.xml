@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<libraries>
+  <library>
+    <location>amd/src/highlight.js</location>
+    <name>highlight.js</name>
+    <license>BSD</license>
+    <version>9.15.6</version>
+    <licenseversion>3.0</licenseversion>
+  </library>
+  <library>
+    <location>styles.css</location>
+    <name>highlight.js</name>
+    <license>BSD</license>
+    <version>9.15.6</version>
+    <licenseversion>3.0</licenseversion>
+  </library>
+  <library>
+    <location>amd/src/highlightjs-line-numbers.js</location>
+    <name>highlightjs-line-numbers</name>
+    <license>BSD</license>
+    <version>2.7.0</version>
+    <licenseversion>3.0</licenseversion>
+  </library>
+</libraries>
